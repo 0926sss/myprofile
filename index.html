@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ナブカツ用のウェブサイトです。基本的なウェブのフロントエンドの書き方、JavaScriptの書き方を学びます。"
+    />
+    <meta
+      name="keywords"
+      content="ナブカツ,横須賀,ポートフォリオ,ウェブサイト,プログラミング,フロントエンド,学習,イトナブ"
+    />
+
+    <title>Profile site</title>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css
+    "
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <div class="head-wrap">
+        <a class="top-link" href="#"><img src="img/logo.svg" /></a>
+        <div id="menuBtn">
+          <div class="line-item"></div>
+          <div class="line-item"></div>
+          <div class="line-item"></div>
+        </div>
+      </div>
+      <nav class="nav-menu">
+        <a class="nav-link" href="#profile">Profile</a>
+        <a class="nav-link" href="#works">Works</a>
+        <a class="nav-link" href="#access">Access</a>
+      </nav>
+    </header>
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/usa.jpeg" /></div>
+        <div class="swiper-slide"><img src="img/kiyomizu.jpg" /></div>
+        <div class="swiper-slide"><img src="img/singaporu.JPG" /></div>
+        <div class="swiper-slide"><img src="img/photo4.jpg" /></div>
+      </div>
+      <h1 class="top-title">Let's enjoy Coding!</h1>
+    </div>
+
+    <!-- Profile -->
+    <section class="profile" id="profile">
+      <h2 class="section-title">Profile</h2>
+      <div class="container">
+        <!-- プロフィールの画像はここのsrcの中身を変える -->
+        <img class="profile-image" src="img/profile.jpg" alt="profile-photo" />
+        <div class="profile-text">
+          <p>はる  
+          
+            
+          
+          <p>
+            　趣味/ 動画作成 / 野球 / オンラインゲーム
+          </p>
+          <p>小学校のコンピューターの授業でpcに興味を持った</p>
+          <p>
+            小学六年生から動画制作開始tikotokで主に活動中</p>
+            総フォロワー数6600人,いいね数31万
+          </p>
+          <p>
+            好きなもの：fpsゲーム / たい焼き / 野球 / タイピング / マンガ 
+        /
+          
+          アニメ / ジャンクフード </p>
+            　/ 釣り / 旅行 / 
+          <p>苦手なもの：なす</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Works -->
+    <section class="works" id="works">
+      <h2 class="section-title">Hobby</h2>
+      <div class="container">
+        <div class="item">
+          <h3 class="item-title">cup cut template</h3>
+          <!-- imgのsrcの中身を変える -->
+          <img class="cover" src="img/capcut.png" />
+          <p>
+          cup cutではcup cutを利用している方が動画制作などに役立てるためのテンプレートを作成しています。
+          </p>
+        </div>
+        <div class="item">
+          <h3 class="item-title">tiktok video creation</h3>
+          <img class="cover" src="img/tiktok.png" />
+          <p>
+            tikotokで一週間に三本ほどshort動画としてcupcutで編集した主にランキングや世界の景色などを編集した動画を載せています。
+          </p>
+        </div>
+        <div class="item">
+          <h3 class="item-title">game</h3>
+          <img class="cover" src="img/gamingpc.png" />
+          <p>
+            主にMinecraftやFortnite、valorant<br />教える内容は、CoronaSDKやWebフロントエンド開発がメインです。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Image -->
+    <section class="section-image">
+      <img src="img/book.jpg" />
+    </section>
+
+    <!-- Access -->
+    <section class="access" id="access">
+      <h2 class="section-title">Access</h2>
+      <div class="container">
+        <!-- ここに画像を入れたらどうなる？ -->
+      <div class="marunouchi">
+        <img src="img/marunouchi1.jpg" alt="">
+        <img src="img/marunouchi2.jpg" alt="">
+        </div>
+      <div class="info">
+          <div class="access-text">
+            <p class="place-name">新丸の内ビル　展望テラス</p>
+            <p>〒100-0005</p>
+            <p>東京都 千代田区 丸の内 一丁目-5-1 　新丸ビル 7F 展望テラス </p>
+        
+          <div class="access-link">
+            <a href="">000-1234-5678</a>
+            <a href=""></a>
+            <!-- URLは以下を変更する -->
+            <a href="https://www.marunouchi.com/building/shinmaru/">https://www.marunouchi.com/building/shinmaru/</a>
+          </div>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.7717756930047!2d139.7616686757878!3d35.68262117258679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bf9a2d26405%3A0xb6dfa2ebc16f1efa!2z5paw5Li444Gu5YaF44OT44OrIOODhuODqeOCuQ!5e0!3m2!1sja!2sjp!4v1701084520044!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">&copy; 2022 Itnav</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
